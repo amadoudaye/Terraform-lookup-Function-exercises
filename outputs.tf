@@ -28,3 +28,6 @@ output "stage_key_presence" {
 output "currency_mexico_upper" {
   value = upper(lookup(var.country_currency, "Mexico", "Unknown"))
 }
+output "currency_mexico_upper" {
+  value = upper(lookup(var.country_currency, "Mexico", "Unknown"))
+}
